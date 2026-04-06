@@ -10,14 +10,20 @@
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.15.4",
-    "solid-js": "^1.9.10"
+    "@solidjs/router": "^0.16.1",
+    "solid-js": "^1.9.12"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
-    "typescript": "~5.9.3",
-    "vite": "^7.2.4",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.2",
     "vite-plugin-pwa": "^1.2.0",
-    "vite-plugin-solid": "^2.11.10"
+    "vite-plugin-solid": "^2.11.12"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5",
+    "vite-plugin-pwa": {
+      "vite": "$vite"
+    }
   }
 }
