@@ -1,5 +1,5 @@
+import { NavigationBar } from '@components/NavigationBar'
 import { Title } from '@solidjs/meta'
-import { A } from '@solidjs/router'
 import { createSignal } from 'solid-js'
 
 export function HelloWorld() {
@@ -8,13 +8,8 @@ export function HelloWorld() {
   return (
     <>
       <Title>Hello World !</Title>
-      <nav>
-        <ol>
-          <li class='crumb'><A href='/'>Home</A></li>
-          <li class='crumb'><A href='/hello-world'>Hello World</A></li>
-        </ol>
-      </nav>
       <h1>Hello ʬorld</h1>
+      <NavigationBar/>
       <div class="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count()}
