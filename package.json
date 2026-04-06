@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "solid-better-refresh": "^0.0.4",
     "typescript": "~6.0.2",
     "vite": "^8.0.2",
     "vite-plugin-pwa": "^1.2.0",
